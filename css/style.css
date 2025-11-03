@@ -760,7 +760,6 @@ footer .footer-copyright .footer-copyright-wrapper{
     display: flex;
     justify-content: space-between;
     align-items: end;
-
 }
 
 .blog-wrapper{
@@ -1187,6 +1186,12 @@ footer .footer-copyright .footer-copyright-wrapper{
 
     .all-blogs-blog a{
         flex-direction: column;
+        gap: 20px;
+    }
+
+    .all-blogs .all-blogs-header{
+        flex-direction: column;
+        align-items: center;
         gap: 20px;
     }
 }
